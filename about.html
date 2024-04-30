@@ -65,7 +65,7 @@
                 </div>
                 <div class="row justify-content-center fs-5">
                     <div class="col">
-                        <p>Auvar adalah seorang profesional yang memiliki banyak keahlian, antara lain sebagai editor, front-end developer, dan fotografer. Dengan keahlian-keahliannya tersebut, ia mampu menciptakan karya-karya yang menarik dan berkualitas tinggi dalam berbagai bidang. Ia selalu berusaha untuk terus berkembang dan belajar hal baru untuk meningkatkan kemampuannya dalam menciptakan karya yang lebih baik lagi.</p>
+                        <p>Saya, seorang web developer yang penuh semangat dan kreatif, dengan pengalaman <strong><span id="experienceYears"></span></strong> tahun, memiliki keahlian dalam <strong>C++, Java, Python dan PHP</strong>. Saya bersemangat untuk membangun sebuah website yang dapat membantu banyak orang, dan selalu belajar dan menyesuaikan dengan perkembangan teknologi dalam bidang pengembangan website. Selain itu, saya juga mampu bekerja sama dalam tim dan memiliki kemampuan komunikasi yang baik.</p>
                     </div>
                     </div>
                 </div>
@@ -84,6 +84,25 @@
             </div>
         </footer>
         <!-- Footer End -->
+
+        <script>
+            // Tanggal awal (1 Agustus 2020)
+            var startDate = new Date('2020-08-01');
+            
+            // Tanggal saat ini
+            var currentDate = new Date();
+            
+            // Menghitung selisih tahun
+            var experienceYears = currentDate.getFullYear() - startDate.getFullYear();
+            
+            // Cek apakah belum melewati hari ulang tahun di tahun ini
+            if (currentDate.getMonth() < startDate.getMonth() || (currentDate.getMonth() === startDate.getMonth() && currentDate.getDate() < startDate.getDate())) {
+                experienceYears--;
+            }
+            
+            // Menampilkan hasil
+            document.getElementById('experienceYears').innerText = experienceYears;
+        </script>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
