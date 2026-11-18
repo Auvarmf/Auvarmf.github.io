@@ -1,0 +1,62 @@
+ 
+
+@import "swiper/css/bundle";    
+@import 'react-18-image-lightbox/src/style.css';
+@import 'react-modal-video/css/modal-video.css';
+
+@import "../../public/assets/css/animate.min.css";
+@import "../../public/assets/css/blog.css";
+@import "../../public/assets/css/font-awesome-pro.css";
+@import "../../public/assets/css/mobilemenu.css";
+@import "../../public/assets/fonts/remixicon.css"; 
+
+@import "~bootstrap/dist/css/bootstrap";
+@import "../../public/assets/css/spacing.css";
+@import "../../public/assets/css/style.css";
+@import "../../public/assets/css/responsive.css"; 
+
+/* ============================================================
+   Tech Stack marquee (homepage — BrandArea)
+   ============================================================ */
+.company-list .scroller__inner img {
+  height: 48px;              /* tinggi seragam, sesuaikan selera */
+  width: auto;
+  max-width: 120px;
+  object-fit: contain;
+  filter: grayscale(1);      /* hitam-putih */
+  opacity: 0.85;
+  transition: filter .3s, opacity .3s, transform .3s;
+}
+
+.company-list .scroller__inner img:hover {
+  filter: grayscale(0);      /* warna muncul saat hover (opsional) */
+  opacity: 1;
+  transform: scale(1.08);
+}
+
+/* ============================================================
+   Professional Skills (/about — SkillArea)
+   ============================================================ */
+.skill-item img {
+  height: 72px;              /* lebih besar karena ada card padding */
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  filter: grayscale(1);
+  transition: filter .3s;
+}
+
+.skill-item:hover img {
+  filter: grayscale(0);      /* warna muncul saat hover (opsional) */
+}
+
+/* Link di dalam artikel blog */
+.postbox__details-content-wrapper a {
+  color: #ff6b35;                       /* aksen oranye — sesuaikan */
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity .2s;
+}
+.postbox__details-content-wrapper a:hover {
+  opacity: .7;
+}
