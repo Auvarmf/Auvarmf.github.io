@@ -274,12 +274,65 @@ export default function BlogDetailsArea() {
                       </div>
 
                       <div className="sidebar__widget mb-45">
+                        <h3 className="sidebar__widget-title">Recent Post</h3>
+                        <div className="sidebar__widget-content">
+                          <div className="sidebar__post">
+                            <div className="rc__post d-flex align-items-center">
+                              <div className="rc__post-thumb">
+                                <Link href="/blog-details">
+                                  <img
+                                    src="/assets/images/blog/blog1.jpg"
+                                    alt=""
+                                  />
+                                </Link>
+                              </div>
+                              <div className="rc__post-content">
+                                <h3 className="rc__post-title">
+                                  <Link href="/blog-details">
+                                    Arsip Kanal YouTube
+                                  </Link>
+                                </h3>
+                                <div className="rc__meta">
+                                  <span>2021–2023</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="rc__post d-flex align-items-center">
+                              <div className="rc__post-thumb">
+                                <Link href="/blog-details/habit">
+                                  <img
+                                    src="/assets/images/blog/HABIT.png"
+                                    alt=""
+                                  />
+                                </Link>
+                              </div>
+                              <div className="rc__post-content">
+                                <h3 className="rc__post-title">
+                                  <Link href="/blog-details/habit">
+                                    HABIT — Habit-First Web Blueprint
+                                  </Link>
+                                </h3>
+                                <div className="rc__meta">
+                                  <span>2026</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="sidebar__widget mb-45">
                         <h3 className="sidebar__widget-title">Category</h3>
                         <div className="sidebar__widget-content">
                           <ul>
                             <li>
                               <Link href="/blog">
                                 YouTube Archive <span>01</span>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="/blog">
+                                System Analysis <span>01</span>
                               </Link>
                             </li>
                           </ul>

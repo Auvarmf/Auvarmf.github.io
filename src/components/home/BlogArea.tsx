@@ -38,6 +38,32 @@ export default function BlogArea() {
             </div>
           </div>
         </div>
+
+        <div className="row blog-post-box align-items-center">
+          <div className="col-lg-6">
+            <div className="blog-post-img">
+              <Link href="/blog-details/habit">
+                <img src="/assets/images/blog/HABIT.png" alt="HABIT — Habit-First Web Blueprint" />
+              </Link>
+              <div className="blog-post-category">
+                <Link href="/blog">System Analysis</Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="blog-post-caption">
+              <h3>Blueprint &amp; PRD</h3>
+              <h2>
+                <Link className="link-decoration" href="/blog-details/habit">
+                  HABIT — Habit-First Web Blueprint
+                </Link>
+              </h2>
+              <Link className="theme-btn theme-btn-two" href="/blog-details/habit">
+                Read more <i className="ri-arrow-right-line"></i>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
