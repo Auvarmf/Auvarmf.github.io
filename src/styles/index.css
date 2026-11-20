@@ -62,17 +62,8 @@
 }
 
 /* ============================================
-   Mobile fix: luruskan hero image & cegah overflow
+   Mobile fix: luruskan hero image
    ============================================ */
-
-/* 1. Kunci horizontal scroll di seluruh situs */
-html,
-body {
-  overflow-x: hidden;
-  max-width: 100vw;
-}
-
-/* 2. Luruskan foto hero di mobile & tablet */
 @media (max-width: 991.98px) {
   .hero-image img,
   .hero-image img:hover {
