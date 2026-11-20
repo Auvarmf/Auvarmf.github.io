@@ -47,6 +47,48 @@ export default function PostboxArea() {
                   </div>
                 </div>
               </article>
+
+                            {/* ===== Artikel 2: HABIT ===== */}
+              <article className="postbox__item format-image mb-50 transition-3">
+                <div className="postbox__thumb w-img">
+                  <Link href="/blog-details/habit">
+                    <img
+                      src="/assets/images/blog/HABIT.png"
+                      alt="HABIT — Habit-First Web Blueprint"
+                    />
+                  </Link>
+                </div>
+                <div className="postbox__content">
+                  <div className="postbox__meta">
+                    <span>
+                      <i className="fa-light fa-user"></i>Auvar Mahsa Fahlevi
+                    </span>
+                    <span>
+                      <i className="fa-light fa-clock"></i>2026
+                    </span>
+                  </div>
+                  <h3 className="postbox__title">
+                    <Link href="/blog-details/habit">
+                      HABIT — Habit-First Web Blueprint: Merancang Sistem
+                      Informasi Web dari Kebiasaan Pengguna
+                    </Link>
+                  </h3>
+                  <div className="postbox__text">
+                    <p>
+                      Kerangka kerja tiga langkah (Data → Kebiasaan Pengguna →
+                      Implementasi) untuk merumuskan kebutuhan sistem informasi
+                      berbasis web yang berakar pada alur kerja nyata pengguna,
+                      sehingga blueprint atau PRD lebih terarah dan aplikasi
+                      lebih mudah diterima saat digunakan.
+                    </p>
+                  </div>
+                  <div className="postbox__read-more">
+                    <Link href="/blog-details/habit" className="theme-btn">
+                      Baca selengkapnya
+                    </Link>
+                  </div>
+                </div>
+              </article>
             </div>
           </div>
 
@@ -135,15 +177,50 @@ export default function PostboxArea() {
               </div>
 
               <div className="sidebar__widget mb-45">
-                <h3 className="sidebar__widget-title">Category</h3>
+                <h3 className="sidebar__widget-title">Recent Post</h3>
                 <div className="sidebar__widget-content">
-                  <ul>
-                    <li>
-                      <Link href="/blog">
-                        YouTube Archive <span>01</span>
-                      </Link>
-                    </li>
-                  </ul>
+                  <div className="sidebar__post">
+                    <div className="rc__post d-flex align-items-center">
+                      <div className="rc__post-thumb">
+                        <Link href="/blog-details">
+                          <img
+                            src="/assets/images/blog/blog1.jpg"
+                            alt=""
+                          />
+                        </Link>
+                      </div>
+                      <div className="rc__post-content">
+                        <h3 className="rc__post-title">
+                          <Link href="/blog-details">
+                            Arsip Kanal YouTube
+                          </Link>
+                        </h3>
+                        <div className="rc__meta">
+                          <span>2026</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="rc__post d-flex align-items-center">
+                      <div className="rc__post-thumb">
+                        <Link href="/blog-details/habit">
+                          <img
+                            src="/assets/images/blog/HABIT.png"
+                            alt=""
+                          />
+                        </Link>
+                      </div>
+                      <div className="rc__post-content">
+                        <h3 className="rc__post-title">
+                          <Link href="/blog-details/habit">
+                            HABIT — Habit-First Web Blueprint
+                          </Link>
+                        </h3>
+                        <div className="rc__meta">
+                          <span>2026</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
