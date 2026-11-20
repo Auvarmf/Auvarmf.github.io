@@ -41,8 +41,8 @@ I am an Informatics Teacher, Full-Stack Web Developer, and Computer Vision & Mac
 
 I'm always open to discussing new projects, AI research collaborations, or teaching opportunities.
 
-- 📧 **Email:** [your.email@example.com](mailto:your.email@example.com) _(Ganti dengan email Anda)_
-- 💼 **LinkedIn:** [linkedin.com/in/auvarmf](https://linkedin.com/in/auvarmf) _(Ganti dengan link LinkedIn Anda)_
+- 📧 **Email:** [your.email@example.com](mailto:auvar.9b@gmail.com.com)
+- 💼 **LinkedIn:** [linkedin.com/in/auvarmf](https://www.linkedin.com/in/auvar-mahsa-fahlevi/)
 - 🐙 **GitHub:** [github.com/Auvarmf](https://github.com/Auvarmf)
 - 🌍 **Location:** Metro, Lampung, Indonesia
 
